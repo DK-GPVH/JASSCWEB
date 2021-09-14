@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('principal');
 });
 
 
@@ -27,4 +27,6 @@ Route::get('/estatuto','EstatuteController');
 Route::get('/servicio','ServiceController');
 
 Route::get('/personal','PersonalController');
+
+Route::get('/consulta','LoginClientController');
 

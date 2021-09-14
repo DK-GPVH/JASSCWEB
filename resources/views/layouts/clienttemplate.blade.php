@@ -20,17 +20,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&family=Lato:ital@1&family=Zen+Loop&family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="http://fonts.cdnfonts.com/css/blanka" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/one-day" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/lilly" rel="stylesheet">
+
+    
 </head>
 <body>
     <div class="header">
-        <a href="/"><img src="images/LogoHome-JASSC-2021.svg"  class="logonav"></a>
+        <a  id="title1"> JASSC</a>
         <input type="checkbox" id="btn-menu">
         <label for="btn-menu"><i class="fas fa-bars"></i></label>
         <ul class="nav">
+            <a class="title" id="title"> JASSC</a>
             <a href="/principal">PRINCIPAL</a>
             <a href="/servicio">SERVICIOS</a>
             <a href="/estatuto">ESTATUTO</a>
             <a href="/personal">PERSONAL</a>
+            <a href="/personal">CONECTATE CON LA COMUNIDAD</a>
+            <a href="/consulta">CONSULTE SU DEUDA</a>
         </ul>
     </div>
     <div class="containergeneral container">
@@ -68,8 +76,7 @@
                
             </div>
     </div>
-    <div class="wave">
-    </div>
+    
     <div class="burbujas">
         <div class="burbuja"></div>
         <div class="burbuja"></div>
