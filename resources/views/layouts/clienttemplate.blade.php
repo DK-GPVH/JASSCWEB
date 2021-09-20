@@ -37,7 +37,7 @@
             <a href="/servicio">SERVICIOS</a>
             <a href="/estatuto">ESTATUTO</a>
             <a href="/personal">PERSONAL</a>
-            <a href="/personal">CONECTATE CON LA COMUNIDAD</a>
+            <a href="/chat">CONECTATE CON LA COMUNIDAD</a>
             <a href="/consulta">CONSULTE SU DEUDA</a>
         </ul>
     </div>

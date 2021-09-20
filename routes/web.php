@@ -30,3 +30,5 @@ Route::get('/personal','PersonalController');
 
 Route::get('/consulta','LoginClientController');
 
+Route::get('/chat','ChatController');
+
