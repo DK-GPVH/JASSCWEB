@@ -1,0 +1,190 @@
+#formulario_consulta input{
+  margin: 10px 0;
+  border: 1px grey solid;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 12px;
+  outline: none;
+  color: grey;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#formulario_consulta label{
+  font-size: x-large;
+  font-weight: bold;
+  color: var(--aqua);
+}
+
+
+#formulario_consulta{
+  width: auto;
+  margin-left: 50%;
+}
+
+
+  #botonconsultar{
+    background-color: #1aebb6;
+    border-radius: 20px;
+    padding: 15px 25px;
+    cursor: pointer;
+    font-size: 19px;
+    margin-left:10%;
+    margin-top: 3%;
+  }
+
+  #tablapropiedaddatos{
+    width: 100%;
+   text-align:center;
+  }
+
+
+  #tablapropiedaddatos td,th{
+    width: 5%;
+   vertical-align: top;
+  }
+  #tablapropiedaddatos th{
+    background-color:var(--aqua);
+    color: black;
+  }
+  #tablapropiedaddatos td{
+    background-color:#007FFF;
+    color:white;
+    padding:1em;
+    font-size: large;
+  }
+
+
+  #tablacategoriadatos{
+    width: 100%;
+   text-align:center;
+  }
+#tablacategoriadatos button{
+  cursor: pointer;
+  border: none;
+  background-color: var(--transparente);
+}
+  #tablacategoriadatos td,th{
+    width: 5%;
+   vertical-align: top;
+  }
+  #tablacategoriadatos th{
+    background-color:var(--aqua);
+    color: black;
+  }
+  #tablacategoriadatos td{
+    background-color:#007FFF;
+    color:white;
+    font-size: large;
+  }
+
+  #tablaclientedatos{
+    width: 100%;
+   text-align:center;
+  }
+  #tablaclientedatos button{
+    cursor: pointer;
+    border: none;
+    background-color: var(--transparente);
+  }
+
+  #tablaclientedatos td,th{
+    width: 5%;
+   vertical-align: top;
+  }
+  #tablaclientedatos th{
+    background-color:var(--aqua);
+    color: black;
+  }
+  #tablaclientedatos td{
+    background-color:#007FFF;
+    color:white;
+    font-size: large;
+  }
+  
+
+  #deudas{
+    width: 100%;
+    height:auto;
+   text-align:center;
+  }
+
+  #deudas #otrosdatos{
+    width: 20%;
+   text-align:center;
+  }
+  
+  #deudas #headdeudas{
+    width: 80%;
+   text-align:center;
+   background-color:dimgrey;
+  }
+
+  #cuerpootrosdatos{
+    vertical-align:top;
+  }
+
+  .card-deuda{
+  margin-left:25%;
+  width: 50%;
+  height:30%;
+  border-radius: 5px;
+  background-color:#00A86B;
+  margin-top: 2%;
+  color: white;
+  }
+
+  .card-content-deuda{
+    padding: 2%;
+    
+  }
+
+  #cuerpodeudas{
+    height:100px;
+    background-color:#007FFF;
+    overflow:hidden;
+  }
+
+  #cuerpodeudas-2{
+    width: 100%;
+    height: 50em;
+    overflow-y: scroll;
+  }
+
+  .card-content-deuda strong{
+    font-size: medium;
+  }
+
+  #botonexitdatos{
+    font-size: xx-large;
+    color:greenyellow;
+  }
+  #botonexitdatos:hover{
+    color: red;
+  }
+
+  #exitdatos{
+    width: auto;
+    margin-bottom:2% ;
+  }
+
+  #modal_error a{
+    color:red;
+    font-size: xx-large;
+  }
+  #modal-content img{
+    margin-left: 50%;
+  }
+  #modal-content p{
+    margin-left: 25%;
+  }
+
+  #Button_chat{
+    background-color:var(--blue);
+    text-decoration: none;
+    padding:0.5em;
+    margin: 2em;
+    color: var(--aqua);
+    border-radius: 1em;
+    border-style: dotted;
+    border-color: var(--aqua);
+  }

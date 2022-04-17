@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\PrincipalController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PropiedadeDatesController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -20,6 +22,8 @@ Route::get('/', function () {
 
 
 
+
+
 Route::get('/principal','PrincipalController');
 
 Route::get('/estatuto','EstatuteController');
@@ -28,7 +32,9 @@ Route::get('/servicio','ServiceController');
 
 Route::get('/personal','PersonalController');
 
-Route::get('/consulta','LoginClientController');
+Route::get('/consulta', 'LoginClientController');
+
+Route::post('propiedaddatos',[PropiedadeDatesController::class,'index']);
 
 Route::get('/chat','ChatController');
 

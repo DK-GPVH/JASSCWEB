@@ -12,6 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap" rel="stylesheet">
     <title> @yield('title') </title>
     <link href="{{asset('css/client.css')}}" rel="stylesheet">
+    <link href="{{asset('css/consulta.css')}}" rel="stylesheet">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -50,7 +52,7 @@
                 <h1 class="redestitle">REDES SOCIALES</h1>
                 <div class="listredes">
                     <a href="https://www.tiktok.com/@jasscuripata_laoroya" target="_blank"><i class="fab fa-tiktok"></i></a>
-                    <a href="https://www.facebook.com/Junta-Administradora-De-Servicios-De-Saneamiento-Curipata-JASSC-Curipata-107153441561440" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
                     <a href="https://www.instagram.com/jassccuripata" target="_blank"><i class="fab fa-instagram"></i></a>
                     <a href="https://twitter.com/JASSC01891851" target="_blank"><i class="fab fa-twitter"></i></a>
                 </div>
@@ -59,7 +61,7 @@
                     <ul>
                         <li><i class="fas fa-home"></i>Curipata mz.26 lt.6 zona B </li>
                        <li><i class="fas fa-phone"></i>+51 946-784-841</li> 
-                       <li><a href="https://www.facebook.com/messages/t/107153441561440" target="_blank"><i class="fab fa-facebook-messenger"></i></a>JASSC</li>
+                       <li><a href="#" ><i class="fab fa-facebook-messenger"></i></a>JASSC</li>
                         <li><a href="https://wa.me/51946784841" target="_blank"><i class="fab fa-whatsapp"></i></a>+51 946-784-841</li>
                         <li><i class="far fa-envelope"></i>admijassccuripata@gmail.com</li>
                         <li> <a href="http://t.me/jassc2021" target="_blank"><i class="fab fa-telegram-plane"></i></a>+51 946-784-841</li>
