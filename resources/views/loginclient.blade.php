@@ -22,26 +22,22 @@
                   <input type="label" class="form-control" name="suministro" placeholder="aqui escriba su combinacion de suministro" required="" autofocus=""/>
               </div>
               <button id="botonconsultar"  class="btn-consulta">Consultar</button>
-            </form>
-            
-
-            @if($display==1)
-
-            <div id="modal_error" style="display:block">
-              <div id="modal-content">
-                <a href="consulta" id="close_modal">&times;</a>
-                 
-                <p>La propiedad no esta registrada o algun dato esta incorrecto; verifique la informacion.
-                    JASSC le agradece.
-                </p>
-              </div>
-            
-          </div>
-
-            @endif
-          
-           
+            </form>         
 </div>
+@if($display==1)
+
+<div id="modal_error" style="display:block">
+  <div id="modal-content">
+    <a href="consulta" id="close_modal">&times;</a>
+    <img src="http://www.canalgif.net/Gifs-animados/Agua/Gotas-de-agua/Gif-animado-Gotas-de-agua-04.gif"> 
+    <p>La propiedad no esta registrada o algun dato esta incorrecto; verifique la informacion.
+        JASSC le agradece.
+    </p>
+  </div>
+
+</div>
+
+@endif
           
     
 @endsection
