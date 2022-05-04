@@ -24,6 +24,15 @@
               <button id="botonconsultar"  class="btn-consulta">Consultar</button>
             </form>         
 </div>
+
+<br>
+<div>
+  <h1 style="text-align:center;color:var(--blue)">DISFRUTE DE OTRA EXPERIENCIA CON LA APLICACION :</h1>
+  <a style="margin-left:25%"href="archivos/jassc.apk" download="jassc.apk"><button class="buttonstatute"><i class="fab fa-android"></i>DESCARGAR APLICACION ANDROID</button></a>
+
+</div>
+
+
 @if($display==1)
 
 <div id="modal_error" style="display:block">
