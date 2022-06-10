@@ -31,8 +31,11 @@
                         </div>
                         <h1 class="anunciotitle">ANUNCIO</h1>
                         <div class="anunciocontent">
-                                <p>Por la problematica mundial actualmente no realizamos reuniones.</p>
-                                <time>01/01/2022-JASSC CURIPATA 2022</time>
+                                <p>TU JASSC, TU FUTURO</p>
+                                <P>SI SOMOS MÁS, SOMOS MEJORES</P>
+                                <br>
+                                <p>EMPADRÓNATE , el numero de empadronados si cuenta.</p>
+                                <time>09/06/22-JASSC CURIPATA 2022</time>
                         </div>
                 </div>
                 <div class="tarifacontainer container">
